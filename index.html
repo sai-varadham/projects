@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intrest Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="container">
+    <h1>INTREST CALCULATOR</h1>
+    <div class="form">
+        <label for="principle">Principle Amount:</label>
+        <input type="number" placeholder="Enter Amount" id="principle">
+    </div>
+    <div class="form">
+        <label for="intrestRate">Intrest Rate:</label>
+        <input type="number" placeholder="Enter Intrest Rate" id="intrest">
+    </div>
+    <div class="form">
+        <label for="Tenure">Tenure In Years:</label>
+        <input type="number" placeholder="Enter Tenure In Years" id="years">
+    </div>
+    <button id="calculateBtn" onclick="calculateAmount(this)">Calculate</button>
+    <p id="result">AMOUNT...</p>
+</div>
+
+<body>
+
+</body>
+<script src="script.js"></script>
+
+</html>
